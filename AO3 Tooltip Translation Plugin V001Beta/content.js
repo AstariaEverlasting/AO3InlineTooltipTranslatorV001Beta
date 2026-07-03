@@ -37,7 +37,7 @@ const IDS = {
 
 const ASSETS = {
 
-	header: chrome.runtime.getURL("assets/header-art.svg"),
+	header: chrome.runtime.getURL("assets/header-banner.svg"),
 
 	editorIcon: chrome.runtime.getURL("assets/editor-icon.svg")
 
