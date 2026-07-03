@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "AO3 Inline Tooltip Translator",
+  "version": "0.0.1",
+  "description": "Insert tooltips as translations into AO3 Rich Text Editor. Created by Astaria Everlasting.",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://archiveofourown.org/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "sidebar.css"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*.svg"
+      ],
+      "matches": [
+        "https://archiveofourown.org/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+/*
+AO3 Inline Tooltip Translator
+
+Created by Astaria Everlasting
+
+Version 1.0
+*/
+
+#ao3-tooltip-sidebar {
+position: fixed;
+right: 0;
+top: 0;
+--sidebar-width: 400px;
+width: var(--sidebar-width);
+height: 100vh;
+flex-shrink: 0;
+padding: 20px;
+box-sizing: border-box;
+background-color: inherit;
+color: inherit;
+border-left: 2px solid inherit;
+z-index: 999999;
+box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+box-sizing: border-box;
+overflow-y: auto;
+}
+
+body.ao3-tooltip-open #main {
+    margin-right: var(--sidebar-width);
+}
+
+#ao3-tooltip-tab {
+position: fixed;
+right: 0;
+top: 50%;
+width: 25px;
+height: 80px;
+z-index:999999;
+}
+
+#ao3-tooltip-sidebar div,
+#ao3-tooltip-sidebar body {
+font-family: inherit;
+margin: 10px;
+}
+
+#ao3-tooltip-sidebar div {
+margin: 10px 0px;
+}
+
+#ao3-tooltip-sidebar a, a:visited {
+color: #e74c3c;
+}
+
+#ao3-tooltip-sidebar h1 {
+font-family: inherit;
+margin: auto;
+display: flex;
+justify-content: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+#ao3-tooltip-sidebar h2, 
+#attributionLink,
+#attributionText {
+margin-top: 5px;
+display: flex;
+justify-content: right;
+text-align: right;
+font-weight: bold;
+font-size: 12px;
+opacity: 1;
+}
+
+#ao3-tooltip-sidebar input,
+.ao3-tooltip-input {
+width: 100%;
+background-color: inherit;
+color: inherit;
+border: 1px solid #777;
+padding: 8px;
+box-sizing: border-box;
+font-family: inherit;
+font-size: 14px;
+resize: vertical;
+white-space: pre-wrap;
+overflow-wrap: break-word;
+}
+
+#ao3-tooltip-sidebar textarea {
+font-family: inherit;
+resize: vertical;
+white-space: pre-wrap;
+overflow-wrap: break-word;
+height: 20vh;
+width: 100%;
+}
+
+#ao3-tooltip-sidebar button {
+font-family: inherit;
+box-shadow: inset 0 -8px 4px inherit, inset 0 8px 7px inherit;
+text-shadow: none;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: auto;
+display: flex;
+}
+
+#ao3-tooltip-buttons {
+text-align: right;
+margin-top: 15px;
+}
+
+.ao3-sidebar-action {
+display: block;
+margin-left: auto;
+}
+
+#ao3-tooltip-sidebar button:hover{
+color: #999;
+border-color: #000;
+box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+#ao3-tooltip-sidebar button:active {
+color: #fff;
+border-color: #fff;
+box-shadow: inset 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+#ao3-close-button {
+position: absolute;
+top: 8px;
+right: 8px;
+margin: auto;
+width: 25px;
+height: 25px;
+padding: 0;
+font-size: 20px;
+line-height: 20px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+#ao3-tooltip-version {
+position: absolute;
+bottom: 10px;
+right: 15px;
+font-size: 12px;
+text-align: right;
+color: #e74c3c;
+opacity: 0.6;
+}
+
+body.ao3-tooltip-open #main {
+margin-right: 400px;
+}
+
+#ao3-tooltip-header-image {
+display: block;
+width: 100%;
+max-width: 100vw;
+height: auto;
+margin-left:auto;
+margin-right:auto;
+overflow:visible
+}
+
+#ao3-tooltip-button .tox-icon {
+background-size: contain;
+background-repeat: no-repeat;
+width: 30px;
+height: 30px;
+display: block;
+}*/
